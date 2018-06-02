@@ -15,4 +15,7 @@ class Personel extends CI_Controller {
         echo $email. "<br>";
         echo $departman. "<br>";
     }
+    public function liste(){
+        echo "Personel listesi";
+    }
 }
